@@ -1,0 +1,78 @@
+body{
+    background-color: #102178;
+    color: white;
+}
+h1{
+   
+    width: 570px;
+    padding: 5px;
+    margin: auto;
+    border-bottom: 5px solid #0c125c;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background: #5c9ade;
+    padding: 5px;
+    justify-content: center;
+    
+    border-left: 20px solid black;
+}
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 45%;
+    padding: 10px;
+    background-color: #725cde;
+    margin: 5px;
+    color: black;
+}
+.boxEjemplo{
+    padding: 10px;
+    background-color: #725cde;
+    margin: 5px;
+    color: black;
+}
+
+.box h2{
+    
+    border-bottom: 3px solid #0c125c;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 7px;
+}
+h2{
+    border-bottom: 3px solid #0c125c;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre los bordes de las celdas */
+    margin: 20px 0;
+  }
+
+  /* Estilos para las celdas de la tabla */
+  th, td {
+    padding: 12px 15px; /* Espaciado dentro de las celdas */
+    border: 1px solid #000; /* Borde de las celdas */
+    text-align: left; /* Alineación del texto */
+  }
+
+  /* Estilo para el encabezado de la tabla */
+  th {
+    background-color: #5c9ade; /* Color de fondo */
+    color: white; /* Color del texto */
+  }
